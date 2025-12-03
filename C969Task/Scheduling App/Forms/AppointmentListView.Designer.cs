@@ -53,13 +53,18 @@
             this.monthCalendar = new System.Windows.Forms.MonthCalendar();
             ((System.ComponentModel.ISupportInitialize)(this.appointmentDataGridView)).BeginInit();
             this.SuspendLayout();
-            this.appointmentDataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            // 
+            // appointmentDataGridView
+            // 
             this.appointmentDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.appointmentDataGridView.Location = new System.Drawing.Point(12, 56);
             this.appointmentDataGridView.Name = "appointmentDataGridView";
             this.appointmentDataGridView.Size = new System.Drawing.Size(740, 186);
             this.appointmentDataGridView.TabIndex = 0;
             this.appointmentDataGridView.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.appointmentDataGridView_DataBindingComplete);
+            // 
+            // addButton
+            // 
             this.addButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addButton.Location = new System.Drawing.Point(665, 249);
             this.addButton.Name = "addButton";
@@ -68,6 +73,9 @@
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
+            // 
+            // editButton
+            // 
             this.editButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.editButton.Location = new System.Drawing.Point(665, 285);
             this.editButton.Name = "editButton";
@@ -76,6 +84,9 @@
             this.editButton.Text = "Edit";
             this.editButton.UseVisualStyleBackColor = true;
             this.editButton.Click += new System.EventHandler(this.editButton_Click);
+            // 
+            // deleteButton
+            // 
             this.deleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteButton.Location = new System.Drawing.Point(665, 317);
             this.deleteButton.Name = "deleteButton";
@@ -84,6 +95,9 @@
             this.deleteButton.Text = "Delete";
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
+            // backButton
+            // 
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backButton.Location = new System.Drawing.Point(675, 385);
             this.backButton.Name = "backButton";
@@ -92,6 +106,9 @@
             this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
+            // label1
+            // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label1.Location = new System.Drawing.Point(296, 254);
@@ -99,6 +116,9 @@
             this.label1.Size = new System.Drawing.Size(170, 18);
             this.label1.TabIndex = 5;
             this.label1.Text = "Search for appointments";
+            // 
+            // MainLabel
+            // 
             this.MainLabel.AutoSize = true;
             this.MainLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.MainLabel.Location = new System.Drawing.Point(294, 9);
@@ -106,6 +126,9 @@
             this.MainLabel.Size = new System.Drawing.Size(166, 29);
             this.MainLabel.TabIndex = 6;
             this.MainLabel.Text = "Appointments ";
+            // 
+            // searchButton
+            // 
             this.searchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.searchButton.Location = new System.Drawing.Point(370, 395);
             this.searchButton.Name = "searchButton";
@@ -114,12 +137,18 @@
             this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
+            // label2
+            // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(299, 293);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Search Type";
+            // 
+            // searchTypeComboBox
+            // 
             this.searchTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.searchTypeComboBox.FormattingEnabled = true;
             this.searchTypeComboBox.Location = new System.Drawing.Point(376, 290);
@@ -127,6 +156,9 @@
             this.searchTypeComboBox.Size = new System.Drawing.Size(130, 21);
             this.searchTypeComboBox.TabIndex = 9;
             this.searchTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.searchTypeComboBox_SelectedIndexChanged);
+            // 
+            // CustomerIDlabel
+            // 
             this.CustomerIDlabel.AutoSize = true;
             this.CustomerIDlabel.Location = new System.Drawing.Point(299, 338);
             this.CustomerIDlabel.Name = "CustomerIDlabel";
@@ -134,45 +166,72 @@
             this.CustomerIDlabel.TabIndex = 10;
             this.CustomerIDlabel.Text = "Customer ID";
             this.CustomerIDlabel.Click += new System.EventHandler(this.CustomerIDlabel_Click);
+            // 
+            // AppointmentTypeLabel
+            // 
             this.AppointmentTypeLabel.AutoSize = true;
             this.AppointmentTypeLabel.Location = new System.Drawing.Point(297, 338);
             this.AppointmentTypeLabel.Name = "AppointmentTypeLabel";
             this.AppointmentTypeLabel.Size = new System.Drawing.Size(66, 13);
             this.AppointmentTypeLabel.TabIndex = 11;
             this.AppointmentTypeLabel.Text = "Appointment";
+            // 
+            // StartDateLabel
+            // 
             this.StartDateLabel.AutoSize = true;
             this.StartDateLabel.Location = new System.Drawing.Point(299, 325);
             this.StartDateLabel.Name = "StartDateLabel";
             this.StartDateLabel.Size = new System.Drawing.Size(55, 13);
             this.StartDateLabel.TabIndex = 12;
             this.StartDateLabel.Text = "Start Date";
+            // 
+            // EndDateLabel
+            // 
             this.EndDateLabel.AutoSize = true;
             this.EndDateLabel.Location = new System.Drawing.Point(299, 361);
             this.EndDateLabel.Name = "EndDateLabel";
             this.EndDateLabel.Size = new System.Drawing.Size(52, 13);
             this.EndDateLabel.TabIndex = 13;
             this.EndDateLabel.Text = "End Date";
+            // 
+            // comboBoxAppointmentType
+            // 
             this.comboBoxAppointmentType.FormattingEnabled = true;
             this.comboBoxAppointmentType.Location = new System.Drawing.Point(405, 335);
             this.comboBoxAppointmentType.Name = "comboBoxAppointmentType";
             this.comboBoxAppointmentType.Size = new System.Drawing.Size(121, 21);
             this.comboBoxAppointmentType.TabIndex = 14;
+            // 
+            // CustomerIDtextbox
+            // 
             this.CustomerIDtextbox.Location = new System.Drawing.Point(398, 335);
             this.CustomerIDtextbox.Name = "CustomerIDtextbox";
             this.CustomerIDtextbox.Size = new System.Drawing.Size(62, 20);
             this.CustomerIDtextbox.TabIndex = 15;
+            // 
+            // dateTimePickerStartDate
+            // 
             this.dateTimePickerStartDate.Location = new System.Drawing.Point(370, 323);
             this.dateTimePickerStartDate.Name = "dateTimePickerStartDate";
             this.dateTimePickerStartDate.Size = new System.Drawing.Size(200, 20);
             this.dateTimePickerStartDate.TabIndex = 16;
+            // 
+            // dateTimePickerEndDate
+            // 
             this.dateTimePickerEndDate.Location = new System.Drawing.Point(370, 361);
             this.dateTimePickerEndDate.Name = "dateTimePickerEndDate";
             this.dateTimePickerEndDate.Size = new System.Drawing.Size(200, 20);
             this.dateTimePickerEndDate.TabIndex = 17;
+            // 
+            // monthCalendar
+            // 
             this.monthCalendar.Location = new System.Drawing.Point(12, 261);
             this.monthCalendar.Name = "monthCalendar";
             this.monthCalendar.TabIndex = 18;
             this.monthCalendar.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar_DateSelected);
+            // 
+            // AppointmentsForm
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(761, 441);
@@ -201,6 +260,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.appointmentDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
     }
 }

@@ -63,163 +63,237 @@
             this.cancelButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.customerDataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // mainLabel
+            // 
             this.mainLabel.AutoSize = true;
             this.mainLabel.Font = new System.Drawing.Font("Arial", 14.25F);
             this.mainLabel.Location = new System.Drawing.Point(320, 9);
             this.mainLabel.Name = "mainLabel";
-            this.mainLabel.Size = new System.Drawing.Size(153, 22);
+            this.mainLabel.Size = new System.Drawing.Size(171, 22);
             this.mainLabel.TabIndex = 0;
             this.mainLabel.Text = "Customer Records";
             this.mainLabel.Click += new System.EventHandler(this.mainLabel_Click);
-            this.customerDataGridView.BackgroundColor = System.Drawing.SystemColors.Window;
+            // 
+            // customerDataGridView
+            // 
             this.customerDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.customerDataGridView.Location = new System.Drawing.Point(12, 40);
             this.customerDataGridView.Name = "customerDataGridView";
-            this.customerDataGridView.Size = new System.Drawing.Size(760, 200);
+            this.customerDataGridView.Size = new System.Drawing.Size(739, 200);
             this.customerDataGridView.TabIndex = 1;
-            this.customerDataGridView.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.customDataGridView_DataBindingComplete);
             this.customerDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.customDataGridView_CellClick);
             this.customerDataGridView.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.customDataGridView_CellMouseClick);
+            this.customerDataGridView.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.customDataGridView_DataBindingComplete);
+            // 
+            // idLabel
+            // 
             this.idLabel.AutoSize = true;
             this.idLabel.Location = new System.Drawing.Point(20, 260);
             this.idLabel.Name = "idLabel";
             this.idLabel.Size = new System.Drawing.Size(18, 13);
             this.idLabel.TabIndex = 2;
             this.idLabel.Text = "ID";
+            // 
+            // nameLabel
+            // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Location = new System.Drawing.Point(20, 290);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(35, 13);
             this.nameLabel.TabIndex = 3;
             this.nameLabel.Text = "Name";
+            // 
+            // addressLabel
+            // 
             this.addressLabel.AutoSize = true;
             this.addressLabel.Location = new System.Drawing.Point(20, 320);
             this.addressLabel.Name = "addressLabel";
             this.addressLabel.Size = new System.Drawing.Size(45, 13);
             this.addressLabel.TabIndex = 4;
             this.addressLabel.Text = "Address";
+            // 
+            // address2Label
+            // 
             this.address2Label.AutoSize = true;
             this.address2Label.Location = new System.Drawing.Point(20, 350);
             this.address2Label.Name = "address2Label";
-            this.address2Label.Size = new System.Drawing.Size(57, 13);
+            this.address2Label.Size = new System.Drawing.Size(54, 13);
             this.address2Label.TabIndex = 5;
             this.address2Label.Text = "Address 2";
+            // 
+            // countryLabel
+            // 
             this.countryLabel.AutoSize = true;
-            this.countryLabel.Location = new System.Drawing.Point(400, 260);
+            this.countryLabel.Location = new System.Drawing.Point(364, 263);
             this.countryLabel.Name = "countryLabel";
             this.countryLabel.Size = new System.Drawing.Size(43, 13);
             this.countryLabel.TabIndex = 6;
             this.countryLabel.Text = "Country";
+            // 
+            // cityLabel
+            // 
             this.cityLabel.AutoSize = true;
-            this.cityLabel.Location = new System.Drawing.Point(400, 290);
+            this.cityLabel.Location = new System.Drawing.Point(364, 293);
             this.cityLabel.Name = "cityLabel";
             this.cityLabel.Size = new System.Drawing.Size(24, 13);
             this.cityLabel.TabIndex = 7;
             this.cityLabel.Text = "City";
+            // 
+            // zipLabel
+            // 
             this.zipLabel.AutoSize = true;
-            this.zipLabel.Location = new System.Drawing.Point(400, 320);
+            this.zipLabel.Location = new System.Drawing.Point(364, 323);
             this.zipLabel.Name = "zipLabel";
             this.zipLabel.Size = new System.Drawing.Size(25, 13);
             this.zipLabel.TabIndex = 8;
             this.zipLabel.Text = "Zip:";
+            // 
+            // phoneLabel
+            // 
             this.phoneLabel.AutoSize = true;
-            this.phoneLabel.Location = new System.Drawing.Point(400, 350);
+            this.phoneLabel.Location = new System.Drawing.Point(364, 353);
             this.phoneLabel.Name = "phoneLabel";
             this.phoneLabel.Size = new System.Drawing.Size(38, 13);
             this.phoneLabel.TabIndex = 9;
             this.phoneLabel.Text = "Phone";
+            // 
+            // idTextBox
+            // 
             this.idTextBox.Enabled = false;
-            this.idTextBox.Location = new System.Drawing.Point(100, 257);
+            this.idTextBox.Location = new System.Drawing.Point(84, 257);
             this.idTextBox.Name = "idTextBox";
             this.idTextBox.Size = new System.Drawing.Size(80, 20);
             this.idTextBox.TabIndex = 10;
             this.idTextBox.TextChanged += new System.EventHandler(this.idTextBox_TextChanged);
-            this.nameTextBox.Location = new System.Drawing.Point(100, 287);
+            // 
+            // nameTextBox
+            // 
+            this.nameTextBox.Location = new System.Drawing.Point(84, 287);
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(260, 20);
             this.nameTextBox.TabIndex = 11;
             this.nameTextBox.TextChanged += new System.EventHandler(this.nameTextBox_TextChanged);
-            this.addressTextBox.Location = new System.Drawing.Point(100, 317);
+            // 
+            // addressTextBox
+            // 
+            this.addressTextBox.Location = new System.Drawing.Point(84, 317);
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(260, 20);
             this.addressTextBox.TabIndex = 12;
             this.addressTextBox.TextChanged += new System.EventHandler(this.addressTextBox_TextChanged);
-            this.address2TextBox.Location = new System.Drawing.Point(100, 347);
+            // 
+            // address2TextBox
+            // 
+            this.address2TextBox.Location = new System.Drawing.Point(84, 347);
             this.address2TextBox.Name = "address2TextBox";
             this.address2TextBox.Size = new System.Drawing.Size(260, 20);
             this.address2TextBox.TabIndex = 13;
             this.address2TextBox.TextChanged += new System.EventHandler(this.address2TextBox_TextChanged);
+            // 
+            // countryComboBox
+            // 
             this.countryComboBox.FormattingEnabled = true;
-            this.countryComboBox.Location = new System.Drawing.Point(460, 257);
+            this.countryComboBox.Location = new System.Drawing.Point(424, 260);
             this.countryComboBox.Name = "countryComboBox";
             this.countryComboBox.Size = new System.Drawing.Size(200, 21);
             this.countryComboBox.TabIndex = 14;
             this.countryComboBox.SelectedIndexChanged += new System.EventHandler(this.countryComboBox_SelectedIndexChanged);
             this.countryComboBox.SelectionChangeCommitted += new System.EventHandler(this.countryComboBox_SelectionChangeCommitted);
             this.countryComboBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.countryComboBox_KeyPress);
+            // 
+            // cityComboBox
+            // 
             this.cityComboBox.FormattingEnabled = true;
-            this.cityComboBox.Location = new System.Drawing.Point(460, 287);
+            this.cityComboBox.Location = new System.Drawing.Point(424, 290);
             this.cityComboBox.Name = "cityComboBox";
             this.cityComboBox.Size = new System.Drawing.Size(200, 21);
             this.cityComboBox.TabIndex = 15;
             this.cityComboBox.SelectedIndexChanged += new System.EventHandler(this.cityComboBox_SelectedIndexChanged);
             this.cityComboBox.SelectionChangeCommitted += new System.EventHandler(this.cityComboBox_SelectionChangeCommitted);
             this.cityComboBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cityComboBox_KeyPress);
-            this.zipTextBox.Location = new System.Drawing.Point(460, 317);
+            // 
+            // zipTextBox
+            // 
+            this.zipTextBox.Location = new System.Drawing.Point(424, 320);
             this.zipTextBox.Name = "zipTextBox";
             this.zipTextBox.Size = new System.Drawing.Size(120, 20);
             this.zipTextBox.TabIndex = 16;
             this.zipTextBox.TextChanged += new System.EventHandler(this.zipTextBox_TextChanged);
-            this.phoneTextBox.Location = new System.Drawing.Point(460, 347);
+            // 
+            // phoneTextBox
+            // 
+            this.phoneTextBox.Location = new System.Drawing.Point(424, 350);
             this.phoneTextBox.Name = "phoneTextBox";
             this.phoneTextBox.Size = new System.Drawing.Size(200, 20);
             this.phoneTextBox.TabIndex = 17;
             this.phoneTextBox.TextChanged += new System.EventHandler(this.phoneTextBox_TextChanged);
-            this.addButton.Location = new System.Drawing.Point(680, 255);
+            // 
+            // addButton
+            // 
+            this.addButton.Location = new System.Drawing.Point(661, 253);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(90, 26);
             this.addButton.TabIndex = 18;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
-            this.editButton.Location = new System.Drawing.Point(680, 287);
+            // 
+            // editButton
+            // 
+            this.editButton.Location = new System.Drawing.Point(661, 285);
             this.editButton.Name = "editButton";
             this.editButton.Size = new System.Drawing.Size(90, 26);
             this.editButton.TabIndex = 19;
             this.editButton.Text = "Edit";
             this.editButton.UseVisualStyleBackColor = true;
             this.editButton.Click += new System.EventHandler(this.editButton_Click);
-            this.deleteButton.Location = new System.Drawing.Point(680, 319);
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.Location = new System.Drawing.Point(661, 317);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(90, 26);
             this.deleteButton.TabIndex = 20;
             this.deleteButton.Text = "Delete";
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
-            this.backButton.Location = new System.Drawing.Point(680, 351);
+            // 
+            // backButton
+            // 
+            this.backButton.Location = new System.Drawing.Point(661, 349);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(90, 26);
             this.backButton.TabIndex = 21;
             this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
-            this.saveButton.Location = new System.Drawing.Point(580, 385);
+            // 
+            // saveButton
+            // 
+            this.saveButton.Location = new System.Drawing.Point(561, 383);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(90, 30);
             this.saveButton.TabIndex = 22;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
-            this.cancelButton.Location = new System.Drawing.Point(680, 385);
+            // 
+            // cancelButton
+            // 
+            this.cancelButton.Location = new System.Drawing.Point(661, 383);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(90, 30);
             this.cancelButton.TabIndex = 23;
             this.cancelButton.Text = "Cancel";
             this.cancelButton.UseVisualStyleBackColor = true;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
+            // 
+            // CustomerEditorView
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 431);
+            this.ClientSize = new System.Drawing.Size(770, 431);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.backButton);
@@ -251,6 +325,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.customerDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
     }
 }

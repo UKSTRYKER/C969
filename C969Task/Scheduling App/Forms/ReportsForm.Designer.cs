@@ -96,7 +96,6 @@
             this.reportDataGridView.AllowUserToDeleteRows = false;
             this.reportDataGridView.AllowUserToResizeRows = false;
             this.reportDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.reportDataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.reportDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.reportDataGridView.Location = new System.Drawing.Point(12, 90);
             this.reportDataGridView.MultiSelect = false;
