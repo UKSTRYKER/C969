@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|c:\\users\\gpmat\\desktop\\c969 example\\c969\\c969task\\scheduling app\\classes\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|solutionrelative:scheduling app\\classes\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\scheduling app\\auxhillary\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|solutionrelative:scheduling app\\auxhillary\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|c:\\users\\gpmat\\desktop\\c969 example\\c969\\c969task\\scheduling app\\forms\\customereditorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|solutionrelative:scheduling app\\forms\\customereditorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|c:\\users\\gpmat\\desktop\\c969 example\\c969\\c969task\\scheduling app\\forms\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\scheduling app\\forms\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|solutionrelative:scheduling app\\forms\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|c:\\users\\gpmat\\desktop\\c969 example\\c969\\c969task\\scheduling app\\forms\\appointmentlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\scheduling app\\forms\\appointmentlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|solutionrelative:scheduling app\\forms\\appointmentlistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|c:\\users\\gpmat\\desktop\\c969 example\\c969\\c969task\\scheduling app\\forms\\appointmenteditorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\scheduling app\\forms\\appointmenteditorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|solutionrelative:scheduling app\\forms\\appointmenteditorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|c:\\users\\gpmat\\desktop\\c969 example\\c969\\c969task\\scheduling app\\auxhillary\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|solutionrelative:scheduling app\\auxhillary\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E703EBC9-04E0-4261-811B-2186E8E5E94A}|Scheduling App\\C969Task.csproj|C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\scheduling app\\auxhillary\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -34,23 +38,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Classes\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Scheduling App\\Classes\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Classes\\DatabaseService.cs",
+              "RelativeToolTip": "Scheduling App\\Classes\\DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:20:47.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ReportsForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Forms\\ReportsForm.cs",
               "RelativeDocumentMoniker": "Scheduling App\\Forms\\ReportsForm.cs",
               "ToolTip": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Forms\\ReportsForm.cs [Design]",
               "RelativeToolTip": "Scheduling App\\Forms\\ReportsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T22:17:24.416Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-03T22:17:24.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CustomerEditorView.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Forms\\CustomerEditorView.cs",
               "RelativeDocumentMoniker": "Scheduling App\\Forms\\CustomerEditorView.cs",
@@ -62,31 +78,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AppointmentListView.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Forms\\AppointmentListView.cs",
               "RelativeDocumentMoniker": "Scheduling App\\Forms\\AppointmentListView.cs",
               "ToolTip": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Forms\\AppointmentListView.cs [Design]",
               "RelativeToolTip": "Scheduling App\\Forms\\AppointmentListView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T22:17:01.168Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-03T22:17:01.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AppointmentEditorView.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Forms\\AppointmentEditorView.cs",
               "RelativeDocumentMoniker": "Scheduling App\\Forms\\AppointmentEditorView.cs",
               "ToolTip": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Forms\\AppointmentEditorView.cs [Design]",
               "RelativeToolTip": "Scheduling App\\Forms\\AppointmentEditorView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T22:16:58.867Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-03T22:16:58.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Auxhillary\\packages.config",
               "RelativeDocumentMoniker": "Scheduling App\\Auxhillary\\packages.config",
@@ -98,13 +112,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Auxhillary\\App.config",
               "RelativeDocumentMoniker": "Scheduling App\\Auxhillary\\App.config",
               "ToolTip": "C:\\Users\\gpmat\\Desktop\\C969 Example\\C969\\C969Task\\Scheduling App\\Auxhillary\\App.config",
               "RelativeToolTip": "Scheduling App\\Auxhillary\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-12-03T21:47:54.456Z",
               "EditorCaption": ""

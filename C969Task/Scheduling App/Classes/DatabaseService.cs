@@ -8,7 +8,7 @@ namespace Scheduling_App
 {
     class DatabaseService
     {
-        public static string connString = @"Server=127.0.0.1;Database=mydb;Uid=root;Pwd=just4you!;";
+        public static string connString = @"Server=127.0.0.1;Database=client_schedule;Uid=sqlUser;Pwd=Passw0rd!;";
         public static MySqlConnection conn = new MySqlConnection(connString);
 
         public static List<User> getAllUsers()
